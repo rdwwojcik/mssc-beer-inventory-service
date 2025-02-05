@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.softlabs</groupId>
-    <artifactId>mssc-beer-service-my</artifactId>
+    <artifactId>mssc-beer-inventory-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <name>mssc-beer-service-my</name>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jms</artifactId>
-            <version>4.1.0.RELEASE</version>
+            <version>5.2.6.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>javax.jms</groupId>
