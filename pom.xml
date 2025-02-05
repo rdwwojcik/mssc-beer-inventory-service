@@ -4,19 +4,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.sfg-beer-works</groupId>
-        <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.10</version>
+        <groupId>softlabs.springframework</groupId>
+        <artifactId>mssc-brewery-bom-my</artifactId>
+        <version>1.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>guru.springframework</groupId>
-    <artifactId>mssc-beer-inventory-service</artifactId>
+    <groupId>com.softlabs</groupId>
+    <artifactId>mssc-beer-service-my</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>mssc-beer-inventory-service</name>
-    <description>MSSC Beer Inventory Service</description>
+    <name>mssc-beer-service-my</name>
+
+    <description>Mssc Beer Service My</description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+            <version>4.1.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.jms</groupId>
+            <artifactId>javax.jms-api</artifactId>
+            <version>2.0.1</version>
+        </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
