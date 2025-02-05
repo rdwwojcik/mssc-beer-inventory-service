@@ -4,10 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>softlabs.springframework</groupId>
-        <artifactId>mssc-brewery-bom-my</artifactId>
-        <version>1.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.github.sfg-beer-works</groupId>
+        <artifactId>sfg-brewery-bom</artifactId>
+        <version>1.0.10</version>
     </parent>
 
     <groupId>com.softlabs</groupId>
